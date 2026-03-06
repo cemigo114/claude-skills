@@ -32,27 +32,13 @@
 | **3.4 EA1** | All 3.3 + DeepSeek V3.1, Qwen 3 |
 | **3.4 EA2** | All 3.4 EA1 (+ additions TBD) |
 
-### Hardware targets
+### [TBA] Hardware/CUDA versions supported to validate fixes
 
-| Platform | GPUs | Notes |
-|----------|------|-------|
-| **CUDA** | A100 (80 GB), H100 (80 GB), H200 (141 GB) | Data-center only; consumer GPUs are NOT supported |
-| **ROCm** | MI300X | |
-| **CPU** | x86-64 (Intel/AMD) | Limited model support |
 
-### Deployment configurations
 
-- **Tensor parallelism:** TP=1, 2, 4, 8
-- **Pipeline parallelism:** PP=1, 2, 4
-- **Quantization:** FP8 (static/dynamic), AWQ, GPTQ, BitsAndBytes (4-bit/8-bit)
-- **Features:** Chunked prefill, prefix caching, speculative decoding (Eagle), structured output (Outlines/xgrammar), tool calling (Hermes/Mistral/GPT-OSS parsers)
+### [TBA] Deployment configurations supported to validate fixes
 
-### NOT in product scope
 
-- Consumer/desktop GPUs (RTX 30xx/40xx/50xx)
-- Exotic MoE configurations not used by any shipped model
-- Third-party custom model architectures without a customer request
-- Experimental upstream features not yet GA in any RHAIIS release
 
 ## Staging CSV schema
 
