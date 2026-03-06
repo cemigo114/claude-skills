@@ -1,4 +1,4 @@
-# Red Hat PPTX Slide Skill
+# Red Hat Dark Theme Slide Skill
 
 Cursor/Claude skill that generates polished, on-brand Red Hat PowerPoint presentations from any input -- product specs, pitch docs, PDFs, notes, or just a topic.
 
